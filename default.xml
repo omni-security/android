@@ -15,7 +15,32 @@
 
   <!-- Remove OmniRoms Repos we like to patch -->
   <remove-project name="android" />
+  <remove-project name="android_bootable_recovery" />
   <remove-project name="android_build" />
+  <remove-project name="android_bionic" />
+  <remove-project name="android_external_libnfc-nci" />
+  <remove-project name="android_external_libxml2" />
+  <remove-project name="android_external_sepolicy" />
+  <remove-project name="android_external_skia" />
+  <remove-project name="android_frameworks_av" />
+  <remove-project name="android_frameworks_base" />
+  <remove-project name="android_frameworks_ex" />
+  <remove-project name="android_frameworks_native" />
+  <remove-project name="android_frameworks_opt_net_wifi" />
+  <remove-project name="android_hardware_libhardware" />
+  <remove-project name="android_hardware_qcom_audio" />
+  <remove-project name="android_hardware_qcom_media" />
+  <remove-project name="android_libcore" />
+  <remove-project name="android_packages_apps_Bluetooth" />
+  <remove-project name="android_packages_apps_ContactsCommon" />
+  <remove-project name="android_packages_apps_Messaging" />
+  <remove-project name="android_packages_apps_PackageInstaller" />
+  <remove-project name="android_packages_apps_Settings" />
+  <remove-project name="android_packages_apps_UnifiedEmail" />
+  <remove-project name="android_packages_providers_DownloadProvider" />
+  <remove-project name="android_packages_providers_MediaProvider" />
+  <remove-project name="android_packages_services_Telephony" />
+  <remove-project name="android_system_core" />
 
   <!-- Patched OmniRoms Repos -->
   <project path="build" name="android_build" remote="omnisecurity" >
@@ -23,5 +48,31 @@
   </project>
 
   <project path="android" name="android" remote="omnisecurity" />
+
+  <project path="bionic" name="android_bionic" remote="omnisecurity" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnisecurity" groups="pdk-cw-fs"/>
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="omnisecurity" />
+  <project path="external/libxml2" name="android_external_libxml2" remote="omnisecurity" groups="pdk-cw-fs,pdk-fs,libxml2" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="omnisecurity" groups="pdk" />
+  <project path="external/skia" name="android_external_skia" remote="omnisecurity" groups="pdk,qcom_msm8x26" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="omnisecurity" groups="pdk" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="omnisecurity" groups="pdk-cw-fs" />
+  <project path="frameworks/ex" name="android_frameworks_ex" remote="omnisecurity" groups="pdk-cw-fs" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="omnisecurity" groups="pdk" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnisecurity" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnisecurity" groups="pdk" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnisecurity" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnisecurity" />
+  <project path="libcore" name="android_libcore" remote="omnisecurity" groups="pdk" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="omnisecurity" groups="pdk-cw-fs" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="omnisecurity" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="omnisecurity" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="omnisecurity" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnisecurity" />
+  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="omnisecurity" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="omnisecurity" groups="pdk-cw-fs" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="omnisecurity" groups="pdk-cw-fs" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnisecurity" />
+  <project path="system/core" name="android_system_core" remote="omnisecurity" groups="pdk" />
 
 </manifest>
