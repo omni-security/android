@@ -32,7 +32,7 @@
   <project path="bionic" name="android_bionic" remote="omnirom" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-4.4"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="android_dalvik" remote="omnirom" />
   <project path="developers/build" name="platform/developers/build" />
@@ -198,7 +198,7 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="omnirom" revision="android-4.4"/>
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="omnirom" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/objenesis" name="platform/external/objenesis" />
   <project path="external/okhttp" name="android_external_okhttp" remote="omnirom" />
