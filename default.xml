@@ -63,7 +63,7 @@
   <project path="android" name="android" remote="omnisecurity" />
   <project path="art" name="android_art" remote="omnisecurity" />
   <project path="bionic" name="android_bionic" remote="omnisecurity" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnisecurity" />
   <project path="dalvik" name="android_dalvik" remote="omnisecurity" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnisecurity" />
   <project path="external/chromium_org" name="android_external_chromium-org" remote="omnisecurity" />
