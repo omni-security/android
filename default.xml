@@ -16,6 +16,7 @@
   <!-- Remove OmniRoms Repos we like to patch -->
   <remove-project name="android" />
   <remove-project name="android_build" />
+  <remove-project name="android_external_chromium-org" />
 
   <!-- Patched OmniRoms Repos -->
   <project path="build" name="android_build" remote="omnisecurity" >
@@ -23,5 +24,6 @@
   </project>
 
   <project path="android" name="android" remote="omnisecurity" />
+  <project path="external/chromium_org" name="android_external_chromium-org" remote="omnisecurity" />
 
 </manifest>
