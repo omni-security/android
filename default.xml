@@ -15,8 +15,41 @@
 
   <!-- Remove OmniRoms Repos we like to patch -->
   <remove-project name="android" />
+  <remove-project name="android_art" />
+  <remove-project name="android_bionic" />
   <remove-project name="android_build" />
+  <remove-project name="android_dalvik" />
+  <remove-project name="android_external_bluetooth_bluedroid" />
   <remove-project name="android_external_chromium-org" />
+  <remove-project name="android_external_chromium_org_third_party_openssl" />
+  <remove-project name="android_external_flac" />
+  <remove-project name="android_external_icu4c" />
+  <remove-project name="android_external_jhead" />
+  <remove-project name="android_external_jpeg" />
+  <remove-project name="android_external_libnfc-nci" />
+  <remove-project name="android_external_okhttp" />
+  <remove-project name="android_external_openssl" />
+  <remove-project name="android_external_sepolicy" />
+  <remove-project name="android_external_skia" />
+  <remove-project name="android_external_wpa_supplicant_8" />
+  <remove-project name="android_frameworks_av" />
+  <remove-project name="android_frameworks_base" />
+  <remove-project name="android_frameworks_native" />
+  <remove-project name="android_frameworks_opt_telephony" />
+  <remove-project name="android_hardware_libhardware" />
+  <remove-project name="android_libcore" />
+  <remove-project name="android_packages_apps_Bluetooth" />
+  <!-- ContactsCommon need to be looked at -->
+  <remove-project name="android_packages_apps_Email" />
+  <remove-project name="android_packages_apps_Nfc" />
+  <remove-project name="android_packages_apps_PackageInstaller" />
+  <remove-project name="android_packages_apps_Settings" />
+  <remove-project name="android_packages_apps_UnifiedEmail" />
+  <remove-project name="android_packages_providers_DownloadProvider" />
+  <remove-project name="android_packages_providers_TelephonyProvider" />
+  <remove-project name="android_packages_services_Telephony" />
+  <remove-project name="android_system_core" />
+  <remove-project name="android_system_media" />
 
   <!-- Patched OmniRoms Repos -->
   <project path="build" name="android_build" remote="omnisecurity" >
@@ -24,6 +57,67 @@
   </project>
 
   <project path="android" name="android" remote="omnisecurity" />
+  <project path="art" name="android_art" remote="omnisecurity" />
+  <project path="bionic" name="android_bionic" remote="omnisecurity" />
+  <project path="dalvik" name="android_dalvik" remote="omnisecurity" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnisecurity" />
   <project path="external/chromium_org" name="android_external_chromium-org" remote="omnisecurity" />
+  <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="omnisecurity" />
+  <project path="external/flac" name="android_external_flac" remote="omnisecurity" />
+  <project path="external/icu4c" name="android_external_icu4c" remote="omnisecurity" />
+  <project path="external/jhead" name="android_external_jhead" remote="omnisecurity" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="omnisecurity" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="omnisecurity" />
+  <project path="external/okhttp" name="android_external_okhttp" remote="omnisecurity" />
+  <project path="external/openssl" name="android_external_openssl" remote="omnisecurity" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="omnisecurity" />
+  <project path="external/skia" name="android_external_skia" remote="omnisecurity" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="omnisecurity" groups="pdk" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="omnisecurity" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="omnisecurity" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="omnisecurity" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnisecurity" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnisecurity" />
+  <project path="libcore" name="android_libcore" remote="omnisecurity" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="omnisecurity" />
+  <!-- ContactsCommon need to be looked at -->
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="omnisecurity" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnisecurity" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="omnisecurity" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnisecurity" />
+  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="omnisecurity" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="omnisecurity" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="omnisecurity" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnisecurity" />
+  <project path="system/core" name="android_system_core" remote="omnisecurity" />
+  <project path="system/media" name="android_system_media" groups="pdk" remote="omnisecurity" />
+
+  <!-- Remove AOSP Repos we like to patch -->
+  <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/chromium" />
+  <remove-project name="platform/external/dhcpcd" />
+  <remove-project name="platform/external/expat" />
+  <remove-project name="platform/external/freetype" />
+  <remove-project name="platform/external/libvpx" />
+  <remove-project name="platform/external/libxml2" />
+  <remove-project name="platform/external/sonivox" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/tremolo" />
+  <remove-project name="platform/packages/apps/CertInstaller" />
+  <remove-project name="platform/system/security" />
+
+  <!-- Patched AOSP repos from android-security remote -->
+  <project path="external/aac" name="android_external_aac" remote="android-security" groups="pdk" />
+  <project path="external/chromium" name="android_external_chromium" remote="android-security" />
+  <project path="external/dhcpcd" name="android_external_dhcpcd" remote="android-security" />
+  <project path="external/expat" name="android_external_expat" remote="android-security" groups="pdk" />
+  <project path="external/freetype" name="android_external_freetype" remote="android-security" groups="pdk" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
+  <project path="external/libxml2" name="android_external_libxml2" remote="android-security" />
+  <project path="external/sonivox" name="android_external_sonivox" remote="android-security" groups="pdk" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="android-security" groups="pdk" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="android-security" groups="pdk" />
+  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="android-security" />
+  <project path="system/security" name="android_system_security" remote="android-security" groups="pdk" />
 
 </manifest>
