@@ -85,5 +85,6 @@
   <project path="external/libavc" name="android_external_libavc" remote="android-security" groups="pdk" />
   <project path="external/libhevc" name="android_external_libhevc" remote="android-security" groups="pdk-fs" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="android-security" groups="pdk" />
+  <project path="external/sfntly" name="android_external_sfntly"  remote="android-security" groups="pdk,qcom_msm8x26" />
 
 </manifest>
