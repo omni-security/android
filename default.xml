@@ -34,6 +34,7 @@
   <remove-project name="android_packages_apps_Bluetooth" />
   <remove-project name="android_packages_apps_ContactsCommon" />
   <remove-project name="android_packages_apps_Messaging" />
+  <remove-project name="android_packages_apps_Nfc" />
   <remove-project name="android_packages_apps_PackageInstaller" />
   <remove-project name="android_packages_apps_Settings" />
   <remove-project name="android_packages_apps_UnifiedEmail" />
@@ -47,7 +48,12 @@
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libmpeg2" />
   <remove-project name="platform/external/sfntly" />
-  
+  <remove-project name="platform/external/sonivox" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/tremolo" />
+  <remove-project name="platform/frameworks/minikin" />
+  <remove-project name="platform/system/bt" />
+
   <!-- Patched OmniRoms Repos -->
   <project path="build" name="android_build" remote="omnisecurity" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -73,6 +79,7 @@
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="omnisecurity" groups="pdk-cw-fs" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="omnisecurity" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="omnisecurity" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnisecurity" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="omnisecurity" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omnisecurity" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="omnisecurity" />
@@ -86,5 +93,10 @@
   <project path="external/libhevc" name="android_external_libhevc" remote="android-security" groups="pdk-fs" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="android-security" groups="pdk" />
   <project path="external/sfntly" name="android_external_sfntly"  remote="android-security" groups="pdk,qcom_msm8x26" />
+  <project path="external/sonivox" name="android_external_sonivox" remote="android-security" groups="pdk" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="android-security" groups="pdk" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="android-security" groups="pdk" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
+  <project path="system/bt" name="android_system_bt" remote="android-security" groups="pdk" />
 
 </manifest>
