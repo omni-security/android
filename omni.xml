@@ -16,7 +16,7 @@
            fetch="https://github.com/omnirom"
            revision="android-6.0" />
 
-  <default revision="refs/tags/android-6.0.1_r80"
+  <default revision="refs/tags/android-6.0.1_r81"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
