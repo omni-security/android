@@ -38,6 +38,7 @@
   <remove-project name="android_frameworks_native" />
   <remove-project name="android_frameworks_opt_telephony" />
   <remove-project name="android_hardware_libhardware" />
+  <remove-project name="android_hardware_ril" />
   <remove-project name="android_libcore" />
   <remove-project name="android_packages_apps_Bluetooth" />
   <remove-project name="android_packages_apps_Camera2" />
@@ -55,11 +56,11 @@
   <remove-project name="android_system_core" />
   <remove-project name="android_system_media" />
   <remove-project name="android_vendor_omni" />
+
   <!-- Patched OmniRoms Repos -->
   <project path="build" name="android_build" remote="omnisecurity" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
   <project path="android" name="android" remote="omnisecurity" />
   <project path="art" name="android_art" remote="omnisecurity" />
   <project path="bionic" name="android_bionic" remote="omnisecurity" />
@@ -83,6 +84,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="omnisecurity" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnisecurity" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnisecurity" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="omnisecurity" />
   <project path="libcore" name="android_libcore" remote="omnisecurity" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="omnisecurity" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="omnisecurity" />
@@ -105,6 +107,7 @@
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/chromium" />
   <remove-project name="platform/external/dhcpcd" />
+  <remove-project name="platform/external/dnsmasq" />
   <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/libvpx" />
@@ -120,6 +123,7 @@
   <project path="external/aac" name="android_external_aac" remote="android-security" groups="pdk" />
   <project path="external/chromium" name="android_external_chromium" remote="android-security" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" remote="android-security" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="android-security" groups="pdk" />
   <project path="external/expat" name="android_external_expat" remote="android-security" groups="pdk" />
   <project path="external/freetype" name="android_external_freetype" remote="android-security" groups="pdk" />
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
