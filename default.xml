@@ -82,9 +82,17 @@
   <project path="vendor/omni" name="android_vendor_omni" remote="omnisecurity" />
 
   <!-- Remove AOSP Repos we like to patch -->
+  <remove-project name="platform/external/libavc" />
+  <remove-project name="platform/external/libhevc" />
+  <remove-project name="platform/external/libmpeg2" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/system/bt" />
 
   <!-- Patched AOSP Repos -->
+  <project path="external/libavc" name="android_external_libavc" remote="android-security" />
+  <project path="external/libhevc" name="android_external_libhevc" remote="android-security" />
+  <project path="external/libmpeg2" name="android_external_libmpeg2" remote="android-security" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="android-security" groups="pdk" />
+  <project path="system/bt" name="android_system_bt" remote="android-security" />
 
 </manifest>
