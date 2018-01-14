@@ -46,6 +46,9 @@
   <remove-project name="android_system_media" />
   <remove-project name="android_vendor_omni" />
 
+  <!-- Debloat -->
+  <remove-project name="android_packages_apps_Browser" />
+
   <!-- Patched OmniRoms Repos -->
   <project path="build" name="android_build" remote="omnisecurity" >
     <copyfile src="core/root.mk" dest="Makefile" />
