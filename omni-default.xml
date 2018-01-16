@@ -6,6 +6,12 @@
   <!-- Include forked AOSP -->
   <include name="omni-aosp.xml" />
 
+  <!-- Include omni-security -->
+  <include name="omni-security.xml" />
+
+  <!-- Include android-security -->
+  <include name="android-security.xml" />
+
   <!-- Include forked CAF -->
   <include name="omni-caf.xml" />
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="android-security"
+           fetch="https://github.com/android-security/" />
+
+  <project path="external/aac" name="android_external_aac" remote="android-security" revision="aosp-7.1" groups="pdk" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="android-security" revision="aosp-7.1" groups="pdk" />
+
+</manifest>
