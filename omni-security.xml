@@ -27,4 +27,5 @@
   <project path="system/core" name="android_system_core" remote="omni-security" revision="android-7.1" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="omni-security" revision="android-7.1" />
 
+  <project path="vendor/omni" name="android_vendor_omni" remote="omni-security" revision="android-7.1" />
 </manifest>
