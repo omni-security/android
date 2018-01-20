@@ -42,6 +42,7 @@
   <remove-project name="device/moto/shamu-kernel" />
 
   <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/clang" />
   <remove-project name="platform/external/dnsmasq" />
   <remove-project name="platform/external/doclava" />
