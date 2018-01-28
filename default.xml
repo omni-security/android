@@ -13,6 +13,10 @@
            fetch="https://github.com/android-security/"
            revision="aosp-4.4" />
 
+  <!-- Debloat -->
+  <remove-project name="android_packages_apps_Browser" />
+  <remove-project name="android_packages_apps_QuickSearchBox" />
+
   <!-- Remove OmniRoms Repos we like to patch -->
   <remove-project name="android" />
   <remove-project name="android_art" />
