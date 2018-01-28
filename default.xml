@@ -48,6 +48,7 @@
 
   <!-- Debloat -->
   <remove-project name="android_packages_apps_Browser" />
+  <remove-project name="android_packages_apps_QuickSearchBox" />
 
   <!-- Patched OmniRoms Repos -->
   <project path="build" name="android_build" remote="omnisecurity" >
