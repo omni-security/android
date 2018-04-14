@@ -114,6 +114,7 @@
   <project path="vendor/omni" name="android_vendor_omni" remote="omnisecurity" />
 
   <!-- Remove AOSP Repos we like to patch -->
+  <remove-project name="device/common" />
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/chromium" />
   <remove-project name="platform/external/dhcpcd" />
@@ -130,6 +131,7 @@
   <remove-project name="platform/system/security" />
 
   <!-- Patched AOSP repos from android-security remote -->
+  <project path="device/common" name="android_device_common" remote="android-security" />
   <project path="external/aac" name="android_external_aac" remote="android-security" groups="pdk" />
   <project path="external/chromium" name="android_external_chromium" remote="android-security" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" remote="android-security" />
