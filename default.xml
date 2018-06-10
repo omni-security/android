@@ -27,6 +27,7 @@
   <remove-project name="android_frameworks_ex" />
   <remove-project name="android_frameworks_native" />
   <remove-project name="android_frameworks_opt_net_wifi" />
+  <remove-project name="android_frameworks_opt_telephony" />
   <remove-project name="android_hardware_libhardware" />
   <remove-project name="android_hardware_qcom_audio" />
   <remove-project name="android_hardware_qcom_media" />
@@ -69,6 +70,7 @@
   <project path="frameworks/ex" name="android_frameworks_ex" remote="omnisecurity" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="android_frameworks_native" remote="omnisecurity" groups="pdk" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnisecurity" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnisecurity" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnisecurity" groups="pdk" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnisecurity" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnisecurity" />
@@ -96,9 +98,11 @@
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libmpeg2" />
+  <remove-project name="platform/external/libvorbis" />
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/frameworks/minikin" />
+  <remove-project name="platform/packages/providers/UserDictionaryProvider" />
   <remove-project name="platform/system/bt" />
 
   <!-- Patched AOSP Repos -->
@@ -108,9 +112,11 @@
   <project path="external/libavc" name="android_external_libavc" remote="android-security" />
   <project path="external/libhevc" name="android_external_libhevc" remote="android-security" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="android-security" />
+  <project path="external/libvorbis" name="android_external_libvorbis" remote="android-security" groups="pdk" />
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="android-security" groups="pdk" />
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" remote="android-security" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="android_system_bt" remote="android-security" />
 
 </manifest>
