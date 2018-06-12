@@ -4,6 +4,7 @@
   <remote  name="android-security"
            fetch="https://github.com/android-security/" />
 
+  <project path="device/common" name="device/common" remote="android-security" revision="aosp-7.1" groups="pdk-cw-fs,pdk" />
   <project path="external/aac" name="android_external_aac" remote="android-security" revision="aosp-7.1" groups="pdk" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="android-security" revision="aosp-7.1" groups="pdk" />
   <project path="external/libvorbis" name="android_external_libvorbis" remote="android-security" revision="aosp-7.1" groups="pdk" />
