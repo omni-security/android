@@ -6,6 +6,7 @@
 
   <project path="device/common" name="android_device_common" remote="android-security" revision="aosp-7.1" groups="pdk-cw-fs,pdk" />
   <project path="external/aac" name="android_external_aac" remote="android-security" revision="aosp-7.1" groups="pdk" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="android-security" groups="pdk" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="android-security" revision="aosp-7.1" groups="pdk" />
   <project path="external/libvorbis" name="android_external_libvorbis" remote="android-security" revision="aosp-7.1" groups="pdk" />
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" revision="aosp-7.1" groups="pdk" />
