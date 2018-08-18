@@ -46,6 +46,7 @@
   <remove-project name="platform/external/bouncycastle" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/clang" />
+  <remove-project name="platform/external/curl" />
   <remove-project name="platform/external/dnsmasq" />
   <remove-project name="platform/external/doclava" />
   <remove-project name="platform/external/e2fsprogs" />
