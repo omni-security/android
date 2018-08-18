@@ -27,6 +27,7 @@
   <remove-project name="android_external_bluetooth_bluedroid" />
   <remove-project name="android_external_chromium-org" />
   <remove-project name="android_external_chromium_org_third_party_openssl" />
+  <remove-project name="android_external_e2fsprogs" />
   <remove-project name="android_external_flac" />
   <remove-project name="android_external_icu4c" />
   <remove-project name="android_external_jhead" />
@@ -76,6 +77,7 @@
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omnisecurity" />
   <project path="external/chromium_org" name="android_external_chromium-org" remote="omnisecurity" />
   <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="omnisecurity" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnisecurity" />
   <project path="external/flac" name="android_external_flac" remote="omnisecurity" />
   <project path="external/icu4c" name="android_external_icu4c" remote="omnisecurity" />
   <project path="external/jhead" name="android_external_jhead" remote="omnisecurity" />
