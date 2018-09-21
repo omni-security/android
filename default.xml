@@ -128,6 +128,7 @@
   <remove-project name="platform/external/libvorbis" />
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libxml2" />
+  <remove-project name="platform/external/neven" />
   <remove-project name="platform/external/sfntly" />
   <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/sqlite" />
@@ -146,6 +147,7 @@
   <project path="external/libvorbis" name="android_external_libvorbis" remote="android-security" />
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" remote="android-security" />
+  <project path="external/neven" name="android_external_neven" remote="android-security" />
   <project path="external/sfntly" name="android_external_sfntly" remote="android-security" />
   <project path="external/sonivox" name="android_external_sonivox" remote="android-security" groups="pdk" />
   <project path="external/sqlite" name="android_external_sqlite" remote="android-security" groups="pdk" />
