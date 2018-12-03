@@ -16,6 +16,7 @@
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="omni-security" revision="android-7.1" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" remote="omni-security" revision="android-7.1" groups="pdk,libxml2" />
   <project path="external/skia" name="android_external_skia" remote="omni-security" revision="android-7.1" groups="pdk,qcom_msm8x26" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="omni-security" revision="android-7.1" groups="pdk" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="omni-security" revision="android-7.1" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="omni-security" revision="android-7.1" groups="pdk-cw-fs" />

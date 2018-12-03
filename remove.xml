@@ -44,6 +44,7 @@
 
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/bouncycastle" />
+  <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/clang" />
   <remove-project name="platform/external/curl" />
@@ -71,6 +72,7 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/tremolo" />
+  <remove-project name="platform/external/v8" />
   <remove-project name="platform/external/wpa_supplicant_8" />
 
   <remove-project name="platform/frameworks/av" />
