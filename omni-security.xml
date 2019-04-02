@@ -27,6 +27,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omni-security" revision="android-7.1" groups="pdk" />
 
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="omni-security" revision="android-7.1" groups="broadcom_wlan" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omni-security" revision="android-7.1" groups="pdk" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omni-security" revision="android-7.1" />
 
   <project path="libcore" name="android_libcore" remote="omni-security" revision="android-7.1" groups="pdk" />
