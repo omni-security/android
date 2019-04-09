@@ -10,6 +10,7 @@
   <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="android-security" revision="aosp-7.1" groups="pdk" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" remote="android-security" revision="aosp-7.1" groups="pdk" />
   <project path="external/curl" name="android_external_curl" remote="android-security" revision="aosp-7.1" groups="pdk" />
+  <project path="external/icu" name="android_external_icu" remote="android-security" revision="aosp-7.1" groups="pdk" />
   <project path="external/libvorbis" name="android_external_libvorbis" remote="android-security" revision="aosp-7.1" groups="pdk" />
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" revision="aosp-7.1" groups="pdk" />
   <project path="external/neven" name="android_external_neven" remote="android-security" revision="aosp-7.1" groups="pdk" />

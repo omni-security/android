@@ -9,7 +9,6 @@
            review="gerrit.omnirom.org" />
 
   <project path="art" name="android_art" remote="omnirom" revision="android-7.1" groups="pdk" />
-  <project path="bionic" name="android_bionic" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" name="android_development" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs" />
 
@@ -61,7 +60,6 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="omnirom" revision="android-7.1" />
 
   <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-7.1" groups="pdk" />
-  <project path="system/netd" name="android_system_netd" groups="pdk" remote="omnirom" revision="android-7.1" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="omnirom" revision="android-7.1" />
 
 </manifest>
