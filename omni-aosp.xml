@@ -20,7 +20,6 @@
   <project path="external/guava" name="android_external_guava" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/jhead" name="android_external_jhead" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/libexif" name="android_external_libexif" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libpng" name="android_external_libpng" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/llvm" name="android_external_llvm" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/lz4" name="android_external_lz4" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="omnirom" revision="android-7.1" groups="pdk" />

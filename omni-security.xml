@@ -16,6 +16,7 @@
   <project path="external/libavc" name="android_external_libavc" remote="omni-security" revision="android-7.1" />
   <project path="external/libhevc" name="android_external_libhevc" remote="omni-security" revision="android-7.1" groups="pdk" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" remote="omni-security" revision="android-7.1" groups="pdk" />
+  <project path="external/libpng" name="android_external_libpng" remote="omni-security" revision="android-7.1" groups="pdk" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="omni-security" revision="android-7.1" groups="pdk" />
   <project path="external/libxml2" name="android_external_libxml2" remote="omni-security" revision="android-7.1" groups="pdk,libxml2" />
   <project path="external/skia" name="android_external_skia" remote="omni-security" revision="android-7.1" groups="pdk,qcom_msm8x26" />
