@@ -55,7 +55,6 @@
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="omnirom" revision="android-7.1" />
   <project path="packages/apps/WallpaperPicker" name="android_packages_apps_WallpaperPicker" remote="omnirom" revision="android-7.1" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="omnirom" revision="android-7.1" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="omnirom" revision="android-7.1" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="omnirom" revision="android-7.1" />
 
   <project path="system/extras" name="android_system_extras" remote="omnirom" revision="android-7.1" groups="pdk" />

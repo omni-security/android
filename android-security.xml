@@ -14,6 +14,7 @@
   <project path="external/libvorbis" name="android_external_libvorbis" remote="android-security" revision="aosp-7.1" groups="pdk" />
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" revision="aosp-7.1" groups="pdk" />
   <project path="external/neven" name="android_external_neven" remote="android-security" revision="aosp-7.1" groups="pdk" />
+  <project path="external/sfntly" name="android_external_sfntly" remote="android-security" groups="pdk,qcom_msm8x26" />
   <project path="external/sonivox" name="android_external_sonivox" remote="android-security" revision="aosp-7.1" groups="pdk" />
   <project path="external/sqlite" name="android_external_sqlite" remote="android-security" revision="aosp-7.1" groups="pdk" />
   <project path="external/v8" name="android_external_v8" remote="android-security" revision="aosp-7.1" groups="pdk" />

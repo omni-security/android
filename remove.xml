@@ -67,6 +67,7 @@
   <remove-project name="platform/external/llvm" />
   <remove-project name="platform/external/lz4" />
   <remove-project name="platform/external/neven" />
+  <remove-project name="platform/external/sfntly" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/sqlite" />
