@@ -54,4 +54,14 @@
   <project path="system/vold" name="android_system_vold" remote="omni-security" revision="android-7.1" />
 
   <project path="vendor/omni" name="android_vendor_omni" remote="omni-security" revision="android-7.1" />
+
+  <!-- Legacy -->
+  <project path="packages/apps/OmniClock" name="android_packages_apps_OmniClock" remote="omni-security" revision="android-7.1" />
+  <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="omni-security" revision="android-7.1" />
+  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="omni-security" revision="android-7.1" />
+  <project path="packages/apps/OmniSubs" name="android_packages_apps_OmniSubs" remote="omni-security" revision="android-7.1" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omni-security" revision="android-7.1" />
+  <project path="packages/apps/OmniTheme" name="android_packages_apps_OmniTheme" remote="omni-security" revision="android-7.1" />
+  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="omni-security" revision="android-7.1" />
+
 </manifest>
