@@ -55,9 +55,12 @@
   <remove-project name="platform/external/flac" />
   <remove-project name="platform/external/guava" />
   <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/ImageMagick" />
   <remove-project name="platform/external/libavc" />
+  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/libhevc" />
+  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libmpeg2" />
   <remove-project name="platform/external/libnfc-nci" />
   <remove-project name="platform/external/libpng" />
@@ -127,6 +130,7 @@
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/CertInstaller" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/ContactsCommon" />
   <remove-project name="platform/packages/apps/DeskClock" />
@@ -152,6 +156,7 @@
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/providers/TvProvider" />
   <remove-project name="platform/packages/providers/UserDictionaryProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
@@ -161,6 +166,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/gatekeeper" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/update_engine" />
